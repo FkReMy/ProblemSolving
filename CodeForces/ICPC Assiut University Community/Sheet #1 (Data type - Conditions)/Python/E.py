@@ -34,7 +34,6 @@ Examples:
 """
 
 # In Python, we can use the math module for a more precise pi, but we'll use the problem's specified value
-# No need to include additional libraries for basic I/O or formatting
 
 # Initialize the value of pi (π) as given in the problem statement.
 # The value is set to an approximation of pi with 9 decimal places.
@@ -57,6 +56,3 @@ print(f"{area:.9f}")
 # print("{:.9f}".format(area))
 # Using % operator:
 # print("%.9f" % area)
-
-# In Python, no need for explicit return statement or main function
-# Program terminates naturally when script ends

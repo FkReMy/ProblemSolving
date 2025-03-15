@@ -35,8 +35,6 @@ Examples:
    5 - 10 = -5
 """
 
-# In Python, we don't need to include libraries for basic input/output operations
-
 # Read the input line and split it into a list of strings, then convert to integers
 x, y = map(int, input().split())
 # In Python, we don't need to declare types explicitly
@@ -62,6 +60,3 @@ print(f"{x} * {y} = {x * y}")
 # print(f"{x} - {y} = {sub}")
 # The following line prints the result of subtraction in the required format using f-string
 print(f"{x} - {y} = {x - y}")
-
-# In Python, no need for explicit return statement or main function
-# Program terminates naturally when script ends

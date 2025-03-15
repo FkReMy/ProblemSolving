@@ -42,8 +42,7 @@ Examples:
    54321.6789
 """
 
-# In Python, we don't need to include libraries for basic input/output operations
-# Python handles different data types more dynamically than C++
+# Python handles different data types more dynamically
 
 # Read the input line and split it into a list of strings using space as separator
 values = input().split()
@@ -69,6 +68,3 @@ print(d)
 """
 print(f"{i}\n{l}\n{c}\n{f}\n{d}")
 """
-
-# In Python, no need for explicit return statement or main function
-# Program terminates naturally when script ends

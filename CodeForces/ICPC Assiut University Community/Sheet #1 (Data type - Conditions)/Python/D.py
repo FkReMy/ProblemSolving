@@ -39,8 +39,6 @@ Examples:
    Difference = 14
 """
 
-# In Python, we don't need to include libraries for basic input/output operations
-
 # Read the input line and split it into four integers
 a, b, c, d = map(int, input().split())
 # Python's int type can handle the range [-10^5, 10^5] and beyond without explicit type declaration
@@ -54,6 +52,3 @@ print(f"Difference = {x}")  # Output the result in the required format using f-s
 # The calculation and output are combined into a single statement for simplicity:
 # We calculate (a * b) - (c * d) and directly print the result in the required format using f-string
 print(f"Difference = {(a * b) - (c * d)}")
-
-# In Python, no need for explicit return statement or main function
-# Program terminates naturally when script ends

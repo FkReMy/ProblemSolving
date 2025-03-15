@@ -31,10 +31,6 @@ Example:
    Hello, world
 """
 
-# In Python, we don't need to include libraries for basic input/output operations as they are built-in.
-
-# Python doesn't require a main function or namespace declaration like C++.
-
 # Read the input name from the user and store it in the string variable 's'.
 # In Python, input() reads a line from the user and returns it as a string.
 # We use strip() to remove any trailing newline or whitespace.
@@ -47,8 +43,3 @@ s = input()  # Read the input name from the user and store it in the string vari
 # In Python, we can concatenate strings with '+' or use f-strings; here we use '+'.
 # Python's print() automatically adds a newline at the end, so no need for an explicit 'endl'.
 print("Hello, " + s)
-
-
-
-# In Python, we don't need to return a value or explicitly end the program like in C++.
-# The script terminates naturally when it reaches the end.
